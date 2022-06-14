@@ -17,16 +17,8 @@
     <link href="./source/all.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="./source/resume.min.css" rel="stylesheet">
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157343465-1"></script>
-         <script>
-           window.dataLayer = window.dataLayer || [];
-           function gtag(){dataLayer.push(arguments);}
-           gtag('js', new Date());
-         
-           gtag('config', 'UA-157343465-1');
-         </script> -->
-    <script charset="utf-8" src="./source/button.e878ad6ba18f0bdda53d6861059b0edd.js"></script>
-
+    <script charset="utf-8" src="./source/button.js"></script>
+    <!-- FontAwesome JS-->
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 </head>
 
@@ -67,12 +59,9 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#teaching" style="font-size:1.2rem;">Teaching</a>
                 </li>
-<!--                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact" style="font-size:1.2rem;">Contact</a>
-                </li> -->
-                <!--         <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-                  </li> -->
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#awards" style="font-size:1.2rem;">Awards</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -83,10 +72,12 @@
                 <span style="position:relative; left:35px" class="d-block d-sm-none">
                     <img class="img-fluid mb-3" src="./source/zbchen.jpg" width="60%" height="60%" alt="">
                 </span>
-                <p class="lead mb-3" style="max-width:800px;">Hi, I am Zhuangbin Chen, currently a final-year Ph.D. student at the <a href="https://www.cse.cuhk.edu.hk/">Computer Science and Engineering Department</a> of <a href="https://www.cuhk.edu.hk">The Chinese University of Hong Kong</a>, under the supervision of <a href="https://www.cse.cuhk.edu.hk/lyu/home">Prof. Michael R. Lyu</a>. I work on Software Engineering, Networking, and Cloud Computing. More specifically, I am interested in improving the reliability of online services and the troubleshooting process of data ceenter networks.
-                    [<a href="mailto:zbchen@cse.cuhk.edu.hk">Email</a>]
+                <p class="lead mb-3" style="max-width:800px;">Hi, I am Zhuangbin Chen, currently a final-year Ph.D. student at the <a href="https://www.cse.cuhk.edu.hk/">Computer Science and Engineering Department</a> of <a href="https://www.cuhk.edu.hk">The Chinese University of Hong Kong</a>, under the supervision of <a href="https://www.cse.cuhk.edu.hk/lyu/home">Prof. Michael R. Lyu</a>. I work on Software Engineering, Networking, and Cloud Computing. More specifically, I am interested in improving the reliability of online services and the troubleshooting process of data center networks.
                 </p>
                 <div class="social-icons">
+                    <a href="mailto:zbchen@cse.cuhk.edu.hk">
+                        <i class="fas fa-envelope"></i>
+                    </a>
                     <a href="https://github.com/zbchern">
                         <i class="fab fa-github"></i>
                     </a>
@@ -129,7 +120,7 @@
                             [<a href="./papers/icse22.pdf">ICSE '22</a>]
                         </li>
                         <li>Graph-based Incident Aggregation for Large-Scale Online Service Systems
-                            [<a href="./papers/ase21.pdf">ASE '22</a>]
+                            [<a href="./papers/ase21.pdf">ASE '21</a>]
                         </li>
                         <li>Towards Intelligent Incident Management: Why We Need It and How We Make It
                             [<a href="./papers/fse20.pdf">FSE '20</a>]
@@ -182,7 +173,7 @@
                             <b>Experience Report: Deep Learning-based System Log Analysis for Anomaly Detection</b><br>
                             <font size="4"><b>Zhuangbin Chen</b>, Jinyang Liu, Wenwei Gu, Yuxin Su, and Michael R. Lyu<br>
                                 <i>in arXiv preprint '21</i><br>
-                                [<a href="./papers/ase21.pdf">PDF</a>] [<a href="https://github.com/logpai/deep-loglizer">Code</a>]
+                                [<a href="./papers/arxiv21.pdf">PDF</a>] [<a href="https://github.com/logpai/deep-loglizer">Code</a>]
                             </font>
                         </p>
                     </li>
@@ -220,7 +211,7 @@
                         <p class="lead mb-2">
                             <b>AIOps Innovations of Incident Management for Cloud Services</b><br>
                             <font size="4"><b>Zhuangbin Chen</b>, Yu Kang, et al.<br>
-                                <i>in AAAI'20, Cloud Intelligence Workshop</i><br>
+                                <i>in AAAI '20, Cloud Intelligence Workshop</i><br>
                                 [<a href="./papers/aaai20.pdf">PDF</a>]
                             </font>
                         </p>
@@ -232,8 +223,8 @@
                         <p class="lead mb-2">
                             <b>Characterizing the Natural Language Descriptions in Software Logging Statements</b><br>
                             <font size="4">Pinjia He, <b>Zhuangbin Chen</b>, Shilin He, and Michael R. Lyu<br>
-                                <i>in FSE '18</i><br>
-                                [<a href="./papers/fse18.pdf">PDF</a>]
+                                <i>in ASE '18</i><br>
+                                [<a href="./papers/ase18.pdf">PDF</a>]
                             </font>
                         </p>
                     </li>
@@ -278,6 +269,21 @@
                 </div>
                 <hr class="m-3">
 
+                <h4 class="mb-3" id="awards">Awards</h4>
+                <p class="lead mb-2">2022</p>
+                <ul>
+                    <li>
+                        <p class="lead mb-2">CUHK Excellent Teaching Assistantship (CSCI3100 Software Engineering)</p>
+                    </li>
+                </ul>
+                <p class="lead mb-2">2020</p>
+                <ul>
+                    <li>
+                        <p class="lead mb-2">Stars of Tomorrow (Award of Excellent Intern), Microsoft Research Asia</p>
+                    </li>
+                </ul>
+                <hr class="m-3">
+
             </div>
         </section>
     </div>
@@ -289,8 +295,8 @@
     <!-- Custom scripts for this template -->
     <script src="./source/resume.min.js"></script>
 
-    <!-- Default Statcounter code for Alan Main
-         https://zaoxing.github.io -->
+    <!-- Default Statcounter code for Zhuangbin Chen
+         https://zbchern.github.io -->
     <script type="text/javascript">
         var sc_project = 10781646;
         var sc_invisible = 1;
@@ -302,8 +308,6 @@
             web stats"></a></div>
     </noscript>
     <!-- End of Statcounter Code -->
-
-    <iframe scrolling="no" frameborder="0" allowtransparency="true" src="./source/widget_iframe.bbd13993eb53d3a11ac08f5e8cf9d6a4.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./source/saved_resource.html"></iframe>
 </body>
 
 </html>
