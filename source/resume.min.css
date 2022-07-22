@@ -40,6 +40,13 @@ h3 {
     font-size: 2rem
 }
 
+footer {
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 300;
+    color: #7F7F7F
+}
+
 p.lead {
     font-size: 1.20rem;
     font-weight: 400
